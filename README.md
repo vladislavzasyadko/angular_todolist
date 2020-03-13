@@ -2,7 +2,7 @@
 
 This project was created using Angular framework to study its basic functionality and project architecture.
 
-
+![Screenshot](https://github.com/vladislavzasyadko/angular_todolist/src/screenshots/scrsht1.png)
 
 
 ## Development server
