@@ -9,10 +9,10 @@ import {delay} from 'rxjs/operators';
 })
 export class TodosComponent implements OnInit {
 
-  private loading: boolean = true
-  private searchString: string = ''
+  public loading: boolean = true
+  public searchString: string = ''
 
-  constructor(private todosService: TodosService) { }
+  constructor(public todosService: TodosService) { }
 
   ngOnInit() {
     // this.todosService.fetchTodos()
